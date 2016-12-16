@@ -10,6 +10,9 @@ namespace CustomListProject
     {
         static void Main(string[] args)
         {
+            GenericList<string> randomList = new GenericList<string>();
+            randomList.ToString();
+            Console.ReadKey();
         }
     }
 }
